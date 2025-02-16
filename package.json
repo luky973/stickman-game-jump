@@ -1,1 +1,5 @@
-"start": "serve -s build -l 3000"
+/public
+/src
+package.json
+README.md
+.gitignore
