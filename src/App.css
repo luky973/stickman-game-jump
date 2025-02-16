@@ -1,3 +1,28 @@
-git add src/App.css
-git commit -m "Fix missing App.css"
-git push origin main
+.game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.game-area {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+.stickman {
+  position: absolute;
+  left: 10%;
+  width: 20px;
+  height: 40px;
+  background-color: black;
+}
+
+.obstacle {
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  height: 40px;
+  background-color: red;
+}
