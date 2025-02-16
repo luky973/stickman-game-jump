@@ -2,6 +2,7 @@
   "name": "stickman-jump",
   "version": "1.0.0",
   "description": "Endless Stickman Jump game",
+  "homepage": "./",
   "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
