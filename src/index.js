@@ -1,3 +1,6 @@
-git add src/index.js
-git commit -m "Přidání src/index.js"
-git push origin main
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./App.css";
+
+ReactDOM.render(<App />, document.getElementById("root"));
