@@ -1,6 +1,24 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
+import React from "react";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="game-container">
+      <h1>Stickman Jump</h1>
+      <div className="game-area">
+        <div className="stickman"></div>
+        <div className="obstacle"></div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+
 const App = () => {
   const [stickmanY, setStickmanY] = useState(150);
   const [isJumping, setIsJumping] = useState(false);
